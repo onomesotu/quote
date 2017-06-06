@@ -1,0 +1,315 @@
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/*font-size: 100%;*/
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+html, body {
+	font-family: 'Architects Daughter', cursive;
+	background: url('image3.png') no-repeat center fixed;
+	background-size: cover;  
+}
+
+.container {
+	max-width: 1200px;
+}
+
+.shadow {
+  -webkit-box-shadow: 0px 0px 4px 2px #676767;
+  -moz-box-shadow: 0px 0px 4px 2px #676767;
+  box-shadow: 0px 0px 4px 2px #676767;
+  -webkit-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  -kthtml-transition: all 0.5s linear;
+  transition: all .5s linear;
+}
+
+/*HEADER*/
+#header {
+	font-size: 1.6em;
+	margin-top: 0.5em;
+	color: #FFF;
+	text-align: center;
+}
+
+#header p {
+	font-size: 0.8em; 
+	color: #FFF !important;
+	padding: 0.5em;
+	margin-bottom: 30px;
+}
+
+.one {
+  color: #FFC0C0;
+}
+
+.two {
+  color: #00C0C0;
+}
+
+.three {
+  color: #80C0FF;
+}
+
+/*INTRO*/
+#intro {
+	height: 600px;
+	margin: 0 auto;
+}
+
+.choice {
+	border-radius: 5px;
+	padding: 30px 90px; 
+	font-size: 1.2em;
+	color: #121212 !important;
+}
+
+
+.choice:hover {
+	background-color: #DDB853;
+    color: #262626 !important;
+    -webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-ms-transition: all 0.5s linear;
+	-kthtml-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	text-decoration: none; 
+}
+
+.btn_color1 {
+  background-color: #FFC0C0;
+  color: #121212; 
+}
+
+.btn_color2 {
+  background-color: #00C0C0;
+  color: #121212; 
+}
+
+.btn_color3 {
+  background-color: #80C0FF;
+  color: #121212;
+}
+
+.inspiration {
+	margin: 50px 0 120px; 
+}
+
+.love {
+	margin: 0 0 150px; 
+}
+
+.life {
+ 	float: right;
+}
+
+.fa {
+	margin-left: 10px;
+}
+
+.fa-lightbulb-o {
+	/*color: #FEEA53;*/
+	color: #181818;
+}
+
+.fa-heart {
+	color: #FF0000;
+}
+.fa-fire {
+	/*color: #FEEA53;*/
+	color: #181818;
+}
+
+/*animation delay css*/
+
+.bounceInDown {
+	-webkit-animation-delay: 1s;
+	animation-delay: 1s;
+	-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-duration: 1s;
+}
+
+.bounceIn {
+	-webkit-animation-delay: 2s;
+	animation-delay: 2s;
+	-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-duration: 1s;
+}
+
+.fadeInRight {
+	-webkit-animation-delay:3s;
+	animation-delay: 3s;
+	-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-duration: 1s;
+}
+
+.fadeOut {
+	webkit-animation-delay:1s;
+	animation-delay: 1s;
+	-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-duration: 1s;
+}
+
+.bounceInDown {
+	webkit-animation-delay:2s;
+	animation-delay: 1s;
+	-webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-duration: 1s;
+}
+
+/*MAIN*/
+.hidden {
+	display: none;
+}
+
+/*.supporting {
+	height: 600px;
+}*/
+
+.supporting a {
+	padding:  20px 50px;
+	float: right;
+	margin-top: 10px;
+	background-color: #80C0FF;
+	color: #121212 !important;
+}
+
+.supporting a:hover {
+	background-color: #DDB853;
+    color: #262626 !important;
+    -webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-ms-transition: all 0.5s linear;
+	-kthtml-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	text-decoration: none;
+}
+
+.quotes{
+	text-align: center;
+	width: 100%;
+	color: #fff;
+	font-size: 2em;
+	margin: 60px 0 0 30px;
+	min-height: 40vh;
+}
+
+blockquote.quotes > footer {
+	font-weight: bold;
+}
+
+.supporting button.active, .btn-default.active:focus {
+	background-color: #00C0C0;
+	color: #262626;
+}
+
+.btn-default:hover, .btn-default.active:hover {
+	background-color: #FFC0C0;
+	color: #262626;
+}
+
+/*This sets the color of the visited link*/
+a:visited, a.newquotes:visited {
+  color: #fff;
+}
+
+/*FOOTER*/
+#footer {
+	margin-top: 1em;
+	text-align: center;
+}
+
+#footer a {
+	display: inline;
+}
+
+#footer p{
+	display: inline;
+	color:  #fff;
+}
+
+.fa-twitter:hover{
+	color: #00C0C0;
+    -webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-ms-transition: all 0.5s linear;
+	-kthtml-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+	text-decoration: none;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 650px) {
+	.quotes {
+		text-align: center;
+		margin-left: 10px;
+		font-size: 1.2em !important;
+		min-height: 50vh;
+	} 
+	#main {
+		margin-bottom: 10px;
+	}
+}
+
+@media screen and (max-width: 330px) {
+	#intro {
+		text-align: center;
+	}
+	
+	.inspiration {
+		float: none;
+		font-size: 0.7em !important;
+	}
+
+	.love {
+		float: none;
+	}
+	.life {
+ 		float: none;
+ 		margin-bottom: 20px;
+	}
+	#main {
+		min-height: 40vh;
+		text-align: center;
+	}
+	.btn-group {
+		width: 120%;
+	}
+	.quotes {
+		text-align: center;
+		margin-left: 10px;
+		font-size: 18px !important;
+		min-height: 50vh;
+	}
+	.newquotes{
+		float: none !important;
+	}
+
+	#footer p {
+		margin-top: 0.2em;
+	}
+}
+
